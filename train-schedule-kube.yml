@@ -41,7 +41,7 @@ spec:
           initialDelaySeconds: 15
           timeoutSeconds: 1
         resources:
-          request:
+          requests:
             cpu: 200m
 
 ---
